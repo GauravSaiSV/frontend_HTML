@@ -1,0 +1,102 @@
+<!--
+FORMS: user input
+      : inputs and lables are in the form
+      : label-- used to define a text, give meaning to it
+      : input-- used to create input box
+                only open tage: boid element
+             ATTRIBUTES:
+             type="text"-- it will allow all type of data [abc, 211, #$!]
+                  "email"-- only email format
+                  "number"-- only numbers
+                  "password"-- it will allow all type of characters but security is give to the input  
+                  "date"-- used to provude dates
+                  "time"-- used to pick time
+                  "datetime-local"-- to pick date n time together
+                  "url"-- only links
+                  "radio"-- it will create a radio button, to choose any option     name attribute-- only works for radio
+                  "checkbox"-- it'll create a check button, 
+                              choose  more than 1 option
+                  "file"-- used to upload files
+                  "color"-- used to pick color
+                  
+                  
+                  
+                  
+                  watermark
+                 placeholder     
+      : br-- used to separate th elements, give elements in rows          -->
+
+
+
+
+
+<html>
+<body>
+    <form>
+        <label>Enter Name: </label>
+        <input type="text" placeholder="Enter name">
+        <br><br>
+        <label>Enter phone number: </label>
+        <input type="number" placeholder="enter phone number">
+        <br><br>
+        <label>Enter email: </label>
+        <input type="email" placeholder="enter email">
+        <br><br>
+        <label>Enter password: </label>
+        <input type="password">
+        <br><br>
+        <label>Enter date: </label>
+        <input type="date">
+        <br><br>
+        <label>Enter time: </label>
+        <input type="time">
+        <br><br>
+        <label>Enter date and time: </label>
+        <input type="datetime-local">
+        <br><br>
+        <label>Enter url: </label>
+        <input type="url">
+        <br><br>
+
+
+        <label>Gender</label>
+        <input type="radio" value="male" name="a"> Male                     
+        <input type="radio" value="female" name="a"> Female
+        <input type="radio" value="others" name="a"> Others
+        <br><br>
+
+        <label>Skill set</label>
+        <input type="checkbox" value="HTML"> HTML
+        <input type="checkbox" value="CSS"> CSS
+        <input type="checkbox" value="Python"> Python
+        <br><br>
+    
+        <label>Upload file</label>
+        <input type="file">
+        <br><br>
+
+        <label>Choose color</label>
+        <input type="color">
+        <br><br>
+
+        <!-- 
+        SELECT: option-- provides options
+         datalist
+              - option-- provides suggestion-->
+
+        <label>Choose county</label>
+        <select>
+            <option>INDIA</option>
+            <option>USA</option>
+            <option>Japan</option>
+            <option>Russia</option>
+        </select>      
+
+
+
+    
+    </form>
+
+    
+</body>
+</html>
